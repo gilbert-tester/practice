@@ -17,7 +17,7 @@ public class HomePage {
 		
 		
 		
-		br.quirBrowser();
+		br.quitBrowser();
 	}
 
 }

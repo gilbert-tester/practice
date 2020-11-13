@@ -12,7 +12,7 @@ public class BrowserUtil {
 	WebDriver driver;
 
 	/**
-	 * This method is used to launch browser
+	 * This method is used to launch or initialize browser
 	 * 
 	 * @param browser
 	 * @return this return driver
@@ -73,7 +73,7 @@ public class BrowserUtil {
 		driver.close();
 	}
 
-	public void quirBrowser() {
+	public void quitBrowser() {
 		driver.quit();
 
 	}

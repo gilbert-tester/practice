@@ -58,8 +58,6 @@ static WebDriver driver;
 											.ignoring(NoSuchElementException.class);
 				//WebElement is an interface
 				return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-				
-		
 	}
 	
 

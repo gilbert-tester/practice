@@ -17,6 +17,7 @@ public class QuitSessionID {
 		System.out.println(title);
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//a[@href='/college-planning/']")).click();
+		System.out.println(driver.findElement(By.tagName("h1")).getText());
 		driver.findElement(By.xpath("//a[text()='Register now']")).click();
 		driver.findElement(By.xpath("//input[@id='ctl00_cphMainContent_registration_UserName']")).sendKeys("AbulK");
 		driver.findElement(By.xpath("//input[@id='ctl00_cphMainContent_registration_Password']")).sendKeys("M@rhaba1234");
